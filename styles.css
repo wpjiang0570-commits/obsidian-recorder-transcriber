@@ -1,0 +1,23 @@
+/* Obsidian录音转文字 - 插件样式 */
+
+.recorder-transcriber-status {
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+.recorder-transcriber-status.success {
+    background-color: var(--color-green);
+    color: white;
+}
+
+.recorder-transcriber-status.error {
+    background-color: var(--color-red);
+    color: white;
+}
+
+.recorder-transcriber-status.info {
+    background-color: var(--color-blue);
+    color: white;
+}
